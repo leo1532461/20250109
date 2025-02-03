@@ -1,0 +1,17 @@
+.arrow-list li {
+  list-style: none;
+}
+
+.arrow-list li::before {
+  content: ">";
+  width: 10px;
+  display: inline-block;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: #2ca33b;
+  line-height: 10px;
+  text-align: center;
+  color: #fff;
+  margin-right: 5px;
+  font-size: 12px;
+}
